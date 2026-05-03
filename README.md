@@ -17,7 +17,7 @@ Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.
 
 > The starter template for Vue is on https://github.com/nuxt-ui-templates/starter-vue.
 
-## Quick Start
+## Quick Start for you 
 
 ```bash [Terminal]
 npm create nuxt@latest -- -t ui
