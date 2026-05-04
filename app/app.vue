@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import AuroraBackdrop from '~/components/decor/AuroraBackdrop.vue'
-import KoiDivider from '~/components/decor/KoiDivider.vue'
 import AppStudioFooter from '~/components/layout/AppStudioFooter.vue'
 import AppStudioHeader from '~/components/layout/AppStudioHeader.vue'
 
@@ -38,8 +37,6 @@ useSeoMeta({
     <UMain class="relative min-h-[60vh]">
       <NuxtPage />
     </UMain>
-
-    <KoiDivider />
 
     <AppStudioFooter />
   </UApp>
