@@ -1,0 +1,27 @@
+Aurora Koi Atelier — scalable Nuxt app layout
+============================================
+
+app/
+  assets/css/          Global theme (aurora palette, fonts, motion)
+  components/
+    brand/             Logos, marks, wordmarks only
+    decor/             Non-content visuals (aurora backdrop, koi divider)
+    layout/            Shell: header, footer, page chrome
+    sections/          One file per homepage section (easy to reorder in pages/index.vue)
+    ui/                Reusable primitives (section heading, art card, containers)
+  composables/         Data accessors and small behaviors (useStudioContent)
+  data/                Typed content constants (swap for CMS later)
+  pages/               Routes; SPA uses index.vue composing sections
+  types/               Shared TypeScript contracts
+
+design/
+  folder-structure.txt This map — add tokens.figma.json or similar when design tooling lands
+
+public/
+  favicon, static exports only (art can move here when you have licensed files)
+
+Scaling notes
+-------------
+- New page: add app/pages/<route>.vue and reuse sections/ui where possible.
+- CMS: replace imports in composables with async data; keep types/studio.ts as API adapter types.
+- New artist: append to data/studio-content.ts — gallery cards pick up via artworksForArtist.
