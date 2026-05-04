@@ -1,4 +1,4 @@
-import type { Artist, Artwork, NavItem, ServiceOffering } from '~/types/studio'
+import type { Artist, NavItem, ServiceOffering } from '~/types/studio'
 
 /** Central content module — swap copy and image URLs without touching layout code. */
 export const studioBrand = {
@@ -12,7 +12,6 @@ export const studioBrand = {
 export const navItems: NavItem[] = [
   { label: 'Story', hash: '#story' },
   { label: 'Artists', hash: '#artists' },
-  { label: 'Gallery', hash: '#gallery' },
   { label: 'Services', hash: '#services' },
   { label: 'Contact', hash: '#contact' }
 ]
@@ -53,63 +52,6 @@ export const artists: Artist[] = [
     bio: 'Soraya builds depth with palette knife and wax until horizons dissolve into color weather. We host her solo previews and pair collectors with framing partners.',
     portraitSrc: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=640&q=80',
     accent: 'from-amber-400/20 to-indigo-500/25'
-  }
-]
-
-export const artworks: Artwork[] = [
-  {
-    id: 'ak-01',
-    title: 'River Lantern',
-    medium: 'Ink, metal leaf, acrylic on linen',
-    year: '2025',
-    artistId: 'mara-okada',
-    imageSrc: 'https://images.unsplash.com/photo-1549887554-acaf9575e936?w=900&q=80',
-    alt: 'Abstract painting with teal and magenta light trails'
-  },
-  {
-    id: 'ak-02',
-    title: 'Porcelain Drift',
-    medium: 'Glazed stoneware, embedded LED',
-    year: '2024',
-    artistId: 'eli-navarro',
-    imageSrc: 'https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?w=900&q=80',
-    alt: 'Sculptural ceramic forms with soft glow'
-  },
-  {
-    id: 'ak-03',
-    title: 'Neon Delta',
-    medium: 'Archival pigment print',
-    year: '2025',
-    artistId: 'jun-park',
-    imageSrc: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=900&q=80',
-    alt: 'Bold geometric color field artwork'
-  },
-  {
-    id: 'ak-04',
-    title: 'Polar Tide',
-    medium: 'Cold wax, oil, graphite',
-    year: '2023',
-    artistId: 'soraya-bench',
-    imageSrc: 'https://images.unsplash.com/photo-1547891654-e66ed7bdb508?w=900&q=80',
-    alt: 'Layered abstract landscape in deep blues'
-  },
-  {
-    id: 'ak-05',
-    title: 'Koi Circuit',
-    medium: 'Screen print, holographic foil',
-    year: '2025',
-    artistId: 'mara-okada',
-    imageSrc: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=900&q=80',
-    alt: 'Vibrant graphic print with flowing shapes'
-  },
-  {
-    id: 'ak-06',
-    title: 'Glass Aurora',
-    medium: 'Blown glass, kiln-formed panels',
-    year: '2024',
-    artistId: 'eli-navarro',
-    imageSrc: 'https://images.unsplash.com/photo-1561214115-f2f134cc4912?w=900&q=80',
-    alt: 'Colorful glass art with light refraction'
   }
 ]
 

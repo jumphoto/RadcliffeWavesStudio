@@ -10,16 +10,6 @@ export interface Artist {
   accent?: string
 }
 
-export interface Artwork {
-  id: string
-  title: string
-  medium: string
-  year: string
-  artistId: string
-  imageSrc: string
-  alt: string
-}
-
 export interface ServiceOffering {
   id: string
   title: string

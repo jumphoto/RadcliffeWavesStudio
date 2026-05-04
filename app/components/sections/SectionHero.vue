@@ -24,11 +24,11 @@ const { studioBrand } = useStudioContent()
         </p>
         <div class="mt-10 flex flex-wrap gap-3">
           <UButton
-            to="/#gallery"
+            to="/#artists"
             size="xl"
             icon="i-lucide-sparkles"
           >
-            View the collection
+            Meet the artists
           </UButton>
           <UButton
             to="/#contact"
