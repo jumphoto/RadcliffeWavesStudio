@@ -6,7 +6,7 @@ export const studioBrand = {
   shortTagline: 'Northern lights. Koi currents. Curated art.',
   mission:
     'We are a boutique studio and gallery pairing luminous, narrative-driven work with practical support for artists who want their stories seen — online, in print, and in the room.',
-  location: 'Anchored in the Pacific Northwest · shipping worldwide'
+  location: 'Anchored in the Western Cape · shipping worldwide'
 } as const
 
 export const navItems: NavItem[] = [

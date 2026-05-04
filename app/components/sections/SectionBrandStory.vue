@@ -8,15 +8,16 @@ const { studioBrand } = useStudioContent()
     class="scroll-mt-24 border-y border-white/5 bg-elevated/20"
   >
     <UContainer class="py-16 sm:py-20">
-      <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+      <div class="grid gap-12 lg:grid-cols-2">
         <StudioSectionHeading
           eyebrow="Why we exist"
           title="A gallery that moves like water"
           :description="studioBrand.mission"
         />
         <UCard
+          class="lg:col-span-2"
           variant="subtle"
-          :ui="{ root: 'ring-1 ring-white/10 bg-linear-to-br from-teal-500/10 via-fuchsia-500/10 to-indigo-500/10 p-6 sm:p-8' }"
+          :ui="{ root: 'ring-1 ring-white/10 bg-linear-to-br from-teal-500/10 via-purple-500/10 to-indigo-500/10 p-6 sm:p-8' }"
         >
           <div class="flex items-start gap-4">
             <UIcon
