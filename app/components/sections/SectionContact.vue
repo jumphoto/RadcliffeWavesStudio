@@ -62,6 +62,7 @@ function onSubmit() {
             >
               <UInput
                 v-model="state.name"
+                class="w-full"
                 autocomplete="name"
                 placeholder="Your name"
                 size="lg"
@@ -75,6 +76,7 @@ function onSubmit() {
             >
               <UInput
                 v-model="state.email"
+                class="w-full"
                 type="email"
                 autocomplete="email"
                 placeholder="you@example.com"
@@ -88,6 +90,7 @@ function onSubmit() {
             >
               <USelect
                 v-model="state.interest"
+                class="w-full"
                 :items="interestItems"
                 value-key="value"
                 label-key="label"
@@ -103,6 +106,7 @@ function onSubmit() {
             >
               <UTextarea
                 v-model="state.message"
+                class="w-full"
                 autoresize
                 :rows="5"
                 placeholder="Tell us about the work, timeline, or links to your portfolio."

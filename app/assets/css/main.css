@@ -22,8 +22,9 @@
 :root {
   --aurora-teal: #2dd4bf;
   --aurora-violet: #a78bfa;
-  --aurora-magenta: #e879f9;
-  --aurora-rose: #fb7185;
+  /* Violet/purple stops — avoid hot magenta & rose so blobs read purple, not pink */
+  --aurora-magenta: #c084fc;
+  --aurora-purple: #a855f7;
   --aurora-ink: #0b1220;
   --koi-coral: #f97316;
   --koi-cream: #fff7ed;
@@ -87,7 +88,7 @@ html {
   height: min(55vw, 480px);
   left: 18%;
   bottom: -12%;
-  background: radial-gradient(circle at 40% 50%, var(--aurora-rose), #38bdf8 40%, transparent 68%);
+  background: radial-gradient(circle at 40% 50%, var(--aurora-purple), #38bdf8 40%, transparent 68%);
   animation-duration: 24s;
   animation-delay: -12s;
 }
